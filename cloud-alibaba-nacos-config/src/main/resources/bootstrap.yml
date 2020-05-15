@@ -1,0 +1,19 @@
+server:
+  port: 7733
+
+spring:
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+        namespace: 054b7b96-efc5-4b3c-818c-6a6b2d5364c8
+      #        group: DEV_GROUP
+      server-addr: localhost:8848
+  application:
+    name: cloud-alibaba-nacos-config
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-consumer-openfeign-order80" />
+        <module name="cloud-consumer-zookeeper8003" />
+        <module name="cloudalibabanacosconfig" />
+        <module name="cloud-alibaba-provider-payment9004" />
+        <module name="cloud-alibaba-provider-payment9003" />
+        <module name="cloud-stream-rabbitmq-consumer8802" />
+        <module name="cloud-provider-payment8002" />
+        <module name="cloud-sentinel-server8401" />
+        <module name="cloud-alibaba-seata-account" />
+        <module name="cloud-alibaba-nacos-consumer83" />
+        <module name="cloudgateway9527" />
+        <module name="cloud-stream-rabbitmq-consumer8803" />
+        <module name="cloud-alibaba-consumer-nacos-order84" />
+        <module name="cloudconfigclient5001" />
+        <module name="cloud-consumer-feign-hystrix-order80" />
+        <module name="cloud-eureka-server7001" />
+        <module name="cloudhystrixdashboard7004" />
+        <module name="cloud-provider-payment8001" />
+        <module name="cloud-provider-consul8005" />
+        <module name="cloud-consumer-consul80" />
+        <module name="cloud-eureka-server7003" />
+        <module name="cloud-eureka-server7002" />
+        <module name="cloud-api-commons" />
+        <module name="cloud-stream-rabbitmq-provider8801" />
+        <module name="cloud-config-server5000" />
+        <module name="cloud-consumer-order80" />
+        <module name="cloud-provider-hystrix-payment8006" />
+        <module name="cloud-alibaba-seata-storage3001" />
+        <module name="cloud-config-client5002" />
+        <module name="cloud-alibaba-nacos-provider9002" />
+        <module name="cloud-alibaba-nacos-provider9001" />
+        <module name="cloud-alibaba-seata-order2001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-alibaba-nacos-config7733" target="1.8" />
+      <module name="cloud-alibaba-nacos-provider9003" target="1.8" />
+      <module name="cloud-alibaba-seata-account4001" target="1.8" />
+      <module name="cloud-config-server3344" target="1.8" />
+      <module name="cloudalibaba-provider-payment9001" target="1.8" />
+      <module name="config" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

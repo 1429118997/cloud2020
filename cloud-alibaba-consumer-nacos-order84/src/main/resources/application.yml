@@ -1,0 +1,31 @@
+server:
+  port: 84
+spring:
+  application:
+    name: cloud-alibaba-consumer-nacos-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: localhost:8080
+      datasource:
+        ds:
+          nacos:
+            server-addr: localhost:8848
+            dataId: ${spring.application.name}
+            data-type: json
+            groupId: DEFAULT_GROUP
+            rule-type: flow
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+feign:
+  sentinel:
+    enabled: true

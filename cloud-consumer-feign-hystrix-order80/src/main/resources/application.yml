@@ -1,0 +1,34 @@
+server:
+  port: 80
+
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+
+
+ribbon:
+  OkToRetryOnAllOperations: false #对所有操作请求都进行重试,默认false
+  ReadTimeout: 4000   #负载均衡超时时间，默认值5000
+  ConnectTimeout: 4000 #ribbon请求连接的超时时间，默认值2000
+  MaxAutoRetries: 0     #对当前实例的重试次数，默认0
+  MaxAutoRetriesNextServer: 0 #对切换实例的重试次数，默认1
+
+
+#开启feign对hystrix的功能，就不会再走自己定制的@HystrixCommand
+feign:
+  hystrix:
+    enabled: true
+
+hystrix:
+  command:
+    PaymentService#payment_timeout(int):  #default全局有效，service id指定应用有效
+      execution:
+        timeout:
+          #是否开启超时熔断
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 4000 #断路器超时时间，默认1000ms
+

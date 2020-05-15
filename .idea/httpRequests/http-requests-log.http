@@ -1,0 +1,438 @@
+POST http://localhost:2001/order/create?parameter=12345&userId=1&produceId=1&count=1&money=100&status=0&userId=1&produceId=1&count=1&money=100&status=0
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-13T102302.405.json
+
+###
+
+POST http://localhost:2001/order/create?parameter=12345&userId=1&produceId=1&count=1&money=100&status=0
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-13T102253.405.json
+
+###
+
+POST http://localhost:2001/or?parameter=12345
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-13T101530.404.json
+
+###
+
+POST http://localhost:5000/actuator/bus-refresh/cloud-config-client:5001?parameter=12345
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+###
+
+POST http://localhost:5000/actuator/bus-env/cloud-config-client:5001:cloud-config-client:5002?parameter=12345
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-07T111108.405.json
+
+###
+
+POST http://localhost:5000/actuator/bus-refresh/cloud-config-client:5001:cloud-config-client:5002?parameter=12345
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+###
+
+POST http://localhost:5000/actuator/bus-refresh/cloud-config-client:5001&cloud-config-client:5002?parameter=12345
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+###
+
+POST http://localhost:5000/actuator/bus-refresh/cloud-config-client:5001&%20cloud-config-client:5002?parameter=12345
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+###
+
+POST http://localhost:5000/actuator/bus-refresh/cloud-config-client:5001?parameter=12345
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+###
+
+POST http://localhost:5000/actuator/bus-refresh?parameter=12345
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+###
+
+POST http://localhost:5000/actuator/busrefresh?parameter=12345
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-07T103529.405.json
+
+###
+
+POST http://localhost:5001/actuator/refresh?parameter=12345
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T100406.200.json
+
+###
+
+POST http://localhost:5001/actuater/refresh?parameter=12345
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T100330.404.json
+
+###
+
+GET http://localhost:9527/payment/port?parameter=12345
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T022421.404.json
+
+###
+
+GET http://localhost:9527/payment/port?parameter=12345
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T022420.404.json
+
+###
+
+GET http://localhost:9527/payment/port?parameter=12345
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T022418.404.json
+
+###
+
+GET http://localhost:9527/payment/port?parameter=lizhihai
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T022408-1.200.txt
+
+###
+
+GET http://localhost:9527/payment/port?parameter=lizhihai
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T022408.200.txt
+
+###
+
+GET http://localhost:9527/payment/port?parameter=lizhihai
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T022407-5.200.txt
+
+###
+
+GET http://localhost:9527/payment/port?parameter=lizhihai
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T022407-4.200.txt
+
+###
+
+GET http://localhost:9527/payment/port?parameter=lizhihai
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T022407-3.200.txt
+
+###
+
+GET http://localhost:9527/payment/port?parameter=lizhihai
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T022407-2.200.txt
+
+###
+
+GET http://localhost:9527/payment/port?parameter=lizhihai
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T022407-1.200.txt
+
+###
+
+GET http://localhost:9527/payment/port?parameter=lizhihai
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T022407.200.txt
+
+###
+
+GET http://localhost:9527/payment/port?parameter=lizhihai
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T022406.200.txt
+
+###
+
+GET http://localhost:9527/payment/port?parameter=lizhihai
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T022405.200.txt
+
+###
+
+GET http://localhost:9527/payment/port?parameter=lizhihai
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T022402.200.txt
+
+###
+
+GET http://localhost:9527/payment/port?parameter=lizhihai
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T022331.200.txt
+
+###
+
+GET http://localhost:9527/payment/port?parameter=lizhihai
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T022330-1.200.txt
+
+###
+
+GET http://localhost:9527/payment/port?parameter=lizhihai
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T022330.200.txt
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=12354
+
+<> 2020-05-06T022232.200.txt
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=asdad
+
+<> 2020-05-06T022219.404.json
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=asdad
+
+<> 2020-05-06T022218.404.json
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=asdad
+
+<> 2020-05-06T022217.404.json
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=asdad
+
+<> 2020-05-06T022214-2.404.json
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=asdad
+
+<> 2020-05-06T022214-1.404.json
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=asdad
+
+<> 2020-05-06T022214.404.json
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=asdad
+
+<> 2020-05-06T022213-4.404.json
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=asdad
+
+<> 2020-05-06T022213-3.404.json
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=asdad
+
+<> 2020-05-06T022213-2.404.json
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=asdad
+
+<> 2020-05-06T022213-1.404.json
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=asdad
+
+<> 2020-05-06T022213.404.json
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=asdad
+
+<> 2020-05-06T022212-1.404.json
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=asdad
+
+<> 2020-05-06T022212.404.json
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=asdad
+
+<> 2020-05-06T022211-1.404.json
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=asdad
+
+<> 2020-05-06T022211.404.json
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=asdad
+
+<> 2020-05-06T022209.404.json
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=asdad
+
+<> 2020-05-06T022146-4.200.txt
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=asdad
+
+<> 2020-05-06T022146-3.200.txt
+
+###
+
+GET http://localhost:9527/payment/port
+Accept: */*
+Cache-Control: no-cache
+Cookie: username=asdad
+
+<> 2020-05-06T022146-2.200.txt
+
+###
+
